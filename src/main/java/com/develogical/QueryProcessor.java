@@ -13,6 +13,6 @@ public class QueryProcessor {
             return "Imperial College is a university in London";
         }
 
-        return "Sorry";
+        return "";
     }
 }
