@@ -13,6 +13,11 @@ public class QueryProcessor {
             return "Imperial College is a university in London";
         }
 
+        if (query.toLowerCase()
+                 .contains("which year was theresa may first elected as the prime minister of great britain")) {
+            return "2016";
+        }
+
         return "";
     }
 }
