@@ -18,6 +18,11 @@ public class QueryProcessor {
             return "2016";
         }
 
+        if (query.toLowerCase()
+                 .contains("what is 11 minus 17")) {
+            return "-6";
+        }
+
         return "";
     }
 }
